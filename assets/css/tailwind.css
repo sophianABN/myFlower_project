@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  :root {
+    --color-leaf-green: #4CAF50;
+    --color-soil-brown: #795548;
+    --color-sky-blue: #03A9F4;
+  }
+}
