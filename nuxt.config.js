@@ -12,7 +12,9 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' }
+
     ]
   },
 
@@ -23,10 +25,14 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/tailwind.css',
+    '@fortawesome/fontawesome-svg-core/styles.css'
+
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/auth.js'
+    '~/plugins/auth.js',
+    '~/plugins/fontawesome.js'
+
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

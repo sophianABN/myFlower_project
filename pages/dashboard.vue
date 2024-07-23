@@ -2,12 +2,10 @@
     <div class="container mx-auto px-4 py-8">
       <div class="flex justify-between items-center mb-8">
         <h1 class="text-3xl font-bold text-leaf-green">Tableau de bord</h1>
-        <button @click="logout" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition duration-300">
-          Déconnexion
-        </button>
+      
       </div>
       <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
-        <h2 class="text-2xl font-semibold text-soil-brown mb-4">Profil de l'utilisateur</h2>
+        <h2 class="text-2xl font-semibold text-soil-brown mb-4">Mon Profil</h2>
         <div v-if="user">
           <p><strong>Email :</strong> {{ user.email }}</p>
           <p><strong>Pseudo :</strong> {{ user.pseudo }}</p>
@@ -63,14 +61,7 @@
           console.error('Erreur lors du chargement des plantes:', error)
         }
       },
-      async logout() {
-        try {
-          await this.$store.dispatch('auth/logout')
-          this.$router.push('/login')
-        } catch (error) {
-          console.error('Erreur lors de la déconnexion:', error)
-        }
-      }
+      
     }
   }
   </script>

@@ -7,3 +7,4 @@ export default function ({ $axios, store }) {
     return config
   })
 }
+
