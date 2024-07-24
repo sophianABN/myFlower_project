@@ -22,16 +22,16 @@
 
       <div class="flex justify-center space-x-6 mt-12">
     <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
-      <font-awesome-icon :icon="['fab', 'facebook-f']" size="1.3x" />
+      <font-awesome-icon :icon="['fab', 'facebook-f']" size="1x" />
     </a>
     <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
-      <font-awesome-icon :icon="['fab', 'twitter']" size="1.3x" />
+      <font-awesome-icon :icon="['fab', 'twitter']" size="1x" />
     </a>
     <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
-      <font-awesome-icon :icon="['fab', 'instagram']" size="1.3x" />
+      <font-awesome-icon :icon="['fab', 'instagram']" size="1x" />
     </a>
     <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
-      <font-awesome-icon :icon="['fab', 'pinterest-p']" size="1.3x" />
+      <font-awesome-icon :icon="['fab', 'pinterest-p']" size="1x" />
     </a>
   </div>
     </main>
