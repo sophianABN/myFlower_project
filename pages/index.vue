@@ -1,15 +1,12 @@
 <template>
-  <div class="container mx-auto px-4 py-8">
-    <header class="text-center mb-12">
-      <h1 class="text-4xl font-bold text-leaf-green mb-2">My Flower</h1>
-      <p class="text-xl text-soil-brown">Votre compagnon végétal</p>
-    </header>
-
-    <main class="max-w-2xl mx-auto">
+  <div class="container bg-[url('/bg_garden.png')] bg-cover h-full mx-auto px-4 py-8 flex item-center">
+    <main class="max-w-2xl m-auto">
       <section class="bg-white rounded-lg shadow-lg p-8 mb-8">
-        <h2 class="text-2xl font-semibold text-leaf-green mb-4">Bienvenue sur My Flower !</h2>
+        <h2 class="text-2xl text-center font-semibold text-leaf-green mb-4">Bienvenue sur My Flower !</h2>
+        <p class="text-xl text-center text-soil-brown mb-4">Votre compagnon végétal</p>
+
         <p class="mb-4">
-          Découvrez une nouvelle façon de prendre soin de vos plantes d'intérieur. 
+          Découvrez une nouvelle façon de prendre soin de vos plantes. 
           My Flower vous aide à suivre les besoins en eau de chacune de vos plantes, 
           vous rappelle quand les arroser, et vous offre des conseils personnalisés 
           pour garder votre jardin d'intérieur florissant.
@@ -20,27 +17,31 @@
         </p>
       </section>
 
-      <div class="flex justify-center space-x-6 mt-12">
-    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+      <div class="flex justify-center space-x-6 mt-12 text-xl">
+    <a href="#" class="text-gray-100 hover:text-leaf-green transition-colors duration-300">
       <font-awesome-icon :icon="['fab', 'facebook-f']" size="1x" />
     </a>
-    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+    <a href="#" class="text-gray-100 hover:text-leaf-green transition-colors duration-300">
       <font-awesome-icon :icon="['fab', 'twitter']" size="1x" />
     </a>
-    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+    <a href="#" class="text-gray-100 hover:text-leaf-green transition-colors duration-300">
       <font-awesome-icon :icon="['fab', 'instagram']" size="1x" />
     </a>
-    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+    <a href="#" class="text-gray-100 hover:text-leaf-green transition-colors duration-300">
       <font-awesome-icon :icon="['fab', 'pinterest-p']" size="1x" />
     </a>
   </div>
     </main>
-  </div>
+
+</div>
+
 </template>
 
 <script>
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',  
+
 }
 </script>
 

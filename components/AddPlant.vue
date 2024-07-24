@@ -4,7 +4,7 @@
         <h2 class="text-2xl font-bold text-leaf-green">Ajouter une plante</h2>
         <button 
           @click="toggleForm" 
-          class="bg-leaf-green hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition duration-300"
+          class="bg-leaf-green hover:bg-green-600 text-white font-bold py-1 px-2 rounded-full transition duration-300"
         >
           {{ isFormVisible ? 'Fermer' : 'Ouvrir' }}
         </button>

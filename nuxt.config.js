@@ -31,7 +31,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/auth.js',
-    '~/plugins/fontawesome.js'
+    '~/plugins/fontawesome.js',
 
   ],
 
@@ -55,11 +55,13 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
   },
 
+
   router: {
     mode: 'history' // Assurez-vous que c'est en mode 'history'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
   }
 }

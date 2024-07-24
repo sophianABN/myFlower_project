@@ -21,18 +21,24 @@
         <h2 class="text-2xl font-semibold text-soil-brown mb-4">Mes plantes</h2>
         <PlantList :plants="plants" />
       </div>
+      <PlantAdviceChat />
+
     </div>
   </template>
   
   <script>
   import AddPlant from '@/components/AddPlant.vue'
   import PlantList from '@/components/PlantList.vue'
+  import PlantAdviceChat from '~/components/PlantAdviceChat.vue'
+
   
   export default {
     name: 'DashboardPage',
     components: {
       AddPlant,
-      PlantList
+      PlantList,
+      PlantAdviceChat
+
     },
     middleware: 'auth',
     data() {
