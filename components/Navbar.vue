@@ -13,8 +13,8 @@
           <!-- Secondary Navbar items -->
           <div class="hidden md:flex items-center space-x-3">
             <template v-if="!isLoggedIn">
-              <nuxt-link to="/login" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Log In</nuxt-link>
-              <nuxt-link to="/register" class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign Up</nuxt-link>
+              <nuxt-link to="/login" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Se Connecter</nuxt-link>
+              <nuxt-link to="/register" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">S'inscrire</nuxt-link>
             </template>
             <template v-else>
               <div class="relative">

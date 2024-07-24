@@ -20,14 +20,20 @@
         </p>
       </section>
 
-      <div class="flex justify-center space-x-4">
-        <nuxt-link to="/register" class="bg-leaf-green hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition duration-300">
-          S'inscrire
-        </nuxt-link>
-        <nuxt-link to="/login" class="bg-sky-blue hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
-          Se connecter
-        </nuxt-link>
-      </div>
+      <div class="flex justify-center space-x-6 mt-12">
+    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+      <font-awesome-icon :icon="['fab', 'facebook-f']" size="1.3x" />
+    </a>
+    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+      <font-awesome-icon :icon="['fab', 'twitter']" size="1.3x" />
+    </a>
+    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+      <font-awesome-icon :icon="['fab', 'instagram']" size="1.3x" />
+    </a>
+    <a href="#" class="text-gray-600 hover:text-leaf-green transition-colors duration-300">
+      <font-awesome-icon :icon="['fab', 'pinterest-p']" size="1.3x" />
+    </a>
+  </div>
     </main>
   </div>
 </template>
